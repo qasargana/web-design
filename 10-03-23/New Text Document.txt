@@ -1,0 +1,2 @@
+git setup
+1. open git bash in desired or main folder. right click and  select open git bash here. ake sure the path in git bash is set to your desired folder.
