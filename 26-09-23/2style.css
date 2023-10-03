@@ -1,0 +1,48 @@
+.ass{
+    color:blue;
+    text-align: center;
+}
+body{
+    background-image: url("grey background.jpg");
+}
+marquee{
+    color:forestgreen;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    padding-left: 10px;
+   
+}
+.mid{
+    text-align: center;   
+}
+table, td, th{
+    border:1px solid black;
+}
+#bcknd{
+    padding: 10px;
+    background-color: green;
+}
+.padd{
+    padding:10px;
+    text-align: center;
+    background-color: yellow;
+}
+td{
+    padding:20px;
+    text-align: center;  
+}
+.center{
+    margin: auto;
+ 
+}
+.cen{
+    margin-left: 25%;
+    margin-top: 200px;
+   transform: translate(8%,90%);
+}

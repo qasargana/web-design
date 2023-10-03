@@ -1,0 +1,20 @@
+.ass{
+    color:blue;
+    text-align: center;
+}
+body{
+    background-image: url("grey background.jpg");
+}
+marquee{
+    color:forestgreen;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    padding-left: 10px;
+   
+}

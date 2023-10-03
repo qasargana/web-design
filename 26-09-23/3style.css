@@ -1,0 +1,38 @@
+.ass{
+    color:blue;
+    text-align: center;
+}
+body{
+    background-image: url("grey background.jpg");
+}
+marquee{
+    color:forestgreen;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    padding-left: 10px;
+   
+}
+.mid{
+    text-align: center;   
+}
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.padd{
+    padding:10px;
+    text-align: center;
+}
+th, td{
+    padding: 10px;
+}
+table{
+    margin: auto;
+    margin-top: 50px;
+}
