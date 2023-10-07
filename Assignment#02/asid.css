@@ -1,0 +1,42 @@
+.col{
+    background-color: rgb(112, 94, 211, 0.7);
+}
+header{
+    display: flex;
+background-color: rgb(112, 94, 211);
+justify-content: center;
+}
+.lside{
+   
+    background-color: rgb(112, 94, 211);
+    justify-content: center;
+    padding: 10px;
+    padding-top: 120px;
+    height: 30vw;
+}
+.art{
+    background-color: rgb(112, 94, 211);
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+    width: 100%;
+}
+.side2{
+  
+    padding: 10px;
+    padding-top: 120px;
+    background-color: rgb(112, 94, 211);
+    justify-content: center;
+}
+.container{
+    display: flex;
+    gap:10px;
+    padding-top: 10px;
+}
+.foot{
+    display: flex;
+background-color: rgb(112, 94, 211);
+justify-content: center;
+margin-top: 10px;
+gap: 10px;
+}
