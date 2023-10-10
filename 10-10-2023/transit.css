@@ -1,0 +1,26 @@
+.box{
+    display: grid;
+    width:240px;
+    height: 240px;
+    margin: 100px;
+    background-color: green;
+    border-radius: 50%;
+    border:dotted #6feb6f 4px;
+}
+.box{
+    /* transform: scale(1.5); */
+    /* transition: 2s; */
+    animation: bounce 2s;
+    animation-direction: alternate ;
+    animation-iteration-count: infinite;
+
+}
+@keyframes bounce {
+    from{
+    transform:translate3d(0,0,0);
+    
+}
+to{
+    transform: translate3d(640px, 0, 0);
+}
+}

@@ -1,0 +1,19 @@
+.mypage{
+    color: chartreuse;
+    background-color: deeppink;
+    padding: 5px;
+    
+}
+.mypage:hover
+{
+color:yellow;
+background-color: black;
+}
+.mybutton{
+    color: red;
+    background-color: aqua;
+}
+.mybutton:active{
+    color:black;
+    background-color: brown;
+}
