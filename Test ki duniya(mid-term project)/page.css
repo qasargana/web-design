@@ -1,7 +1,12 @@
-marquee{
+body {
+  margin: 0;
+  padding: 0;
+}
+.marq{
     background-color: black;
     padding: 20px;
 }
+
 .adres{
     color:white;
     font-size: 18px;
@@ -30,7 +35,7 @@ ul {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 34px 26px;
+    padding: 34px ;
     text-decoration: none;
   }
   
@@ -52,7 +57,7 @@ ul {
   
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 0px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -66,6 +71,7 @@ ul {
   .mdcat{
     background-color: red;
     border: 5px dotted black;
+    padding: 10px;
     font-size: 18px;
     color: white;
   }
