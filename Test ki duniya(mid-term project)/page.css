@@ -4,7 +4,10 @@ body {
 }
 .marq{
     background-color: black;
-    padding: 20px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    
 }
 
 .adres{
@@ -12,12 +15,13 @@ body {
     font-size: 18px;
     letter-spacing: 2px;
     font-family: jost;
+    margin: 0;
 }
 .lah{
     color:red;
     font-size: 18px;
    font-weight: bold;
-
+  margin: 0;
 }
 ul {
     list-style-type: none;
