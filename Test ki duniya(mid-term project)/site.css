@@ -1,0 +1,105 @@
+body{
+    display: grid;
+    grid-template-rows: 80px 90px 500px 50px 40px 1fr  1fr 350px 250px 400px 1fr 1fr 50px;
+}
+.con1{
+   background-color: black;
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   font-family: 'Jost', sans-serif;
+}
+.con1-1-heading{
+color: white;
+font-size: 18px;
+letter-spacing: 2px;
+font-weight: 900;
+font-family: 'Jost', sans-serif;
+}
+.con1-1-text{
+color: red;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 2px;
+
+}
+
+.con2{
+    background-color: rgb(71,68,68);
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 200px 3fr 1fr;
+   
+}
+
+.con2-1{
+    background: rgb(71,68,68);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con2-1-img{
+    width: 50%;
+
+}
+.con2-2{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.con2-3{
+    background: #232D3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con3{
+    background-color: aqua;
+}
+.con4{
+    background-color: red;
+    border: 5px dotted black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.con4-1-marq{
+    color:white;
+font-size: 18px;
+letter-spacing: 2px;
+font-weight: 900;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+.con5{
+    background-color: yellow;
+}
+.con6{
+background-color: slategray;
+}
+.con7{
+    background-color: salmon;
+}
+.con8{
+    background-color: brown;
+    
+}
+.con9{
+    background-color: skyblue;
+}
+.con10{
+    background-color: green;
+}
+.con11{
+background-color: darkgoldenrod;
+}
+.con12{
+background-color: orangered;
+}
+.con13{
+    background-color: aqua;
+}
