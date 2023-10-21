@@ -1,6 +1,8 @@
 body{
+    padding: 0;
+    margin: 0;
     display: grid;
-    grid-template-rows: 80px 90px 710px 50px  1fr  1fr 350px 250px 400px 1fr 1fr 50px;
+    grid-template-rows: 80px 90px 700px 50px  1fr 600px 600px 250px 400px 1fr 1fr 50px;
 }
 .con1{
    background-color: black;
@@ -78,6 +80,8 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 
 .con6{
 background-color: white;
+display: grid;
+grid-template-rows: 75px 1fr;
 
 
 
@@ -87,16 +91,12 @@ display: flex;
 justify-content: center;
 font-family: 'Jost', sans-serif;
 }
-/* .con6-1-text-heading{
-    
-    font-weight: bold;
-} */
+
 .con6-1{
     display: grid;
-    /* grid-template-columns: repeat(2, 10fr); */
-    grid-template-columns: 600px 1fr ;
-    
+    grid-template-columns: 1fr 1fr ;  
 }
+
 .con6-1-img{
 background-color: white;
 display: flex;
@@ -104,8 +104,7 @@ align-items: center;
 }
 .con-6-2-text{
     background-color: white;
-   
-/* justify-content: center; */
+justify-content: center;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
@@ -115,10 +114,62 @@ align-items: center;
 .con6-1-text-note{
     color: red;
 }
-
 .con7{
-    background-color: salmon;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 100px 1fr;
 }
+.con7-heading{
+    display: flex;
+    font-weight: 600;
+   margin: 10px;
+    line-height: 32px;
+    font-size: 32px;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+    }
+    
+    .con7-1{
+        display: grid;
+        grid-template-columns: 590px 1fr ;  
+    }
+    
+    .con7-1-img{
+    background-color: white;
+    vertical-align: middle;
+    display: inline-block;
+    /* align-items: center; */
+    }
+    .con7-2-text{
+        background-color: white;
+    justify-content: center;
+        font-size: 22px;
+        /* font-weight: 400; */
+        line-height: 33px;
+        font-family: 'Jost', sans-serif;
+       
+    }
+
+.con7-1-text-button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size:13px;
+    border-radius:2px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration-line:underline;
+    cursor: pointer;
+    background-color: red;
+    font-weight: 500;
+    line-height: 13px;
+  }
+  .con7-1-text-button:hover {
+    background-color: black;
+    color: white;
+  }
 .con8{
     background-color: brown;
     
@@ -137,4 +188,23 @@ background-color: orangered;
 }
 .con13{
     background-color: aqua;
+}
+
+@media screen and (max-width: 660px) {
+
+
+    .con6-1{
+        display: grid;
+        /* grid-template-columns: repeat(2, 10fr); */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr ;
+       background: red;
+    }
+    
+    .con7-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr ;
+       background: red;
+    }
 }
