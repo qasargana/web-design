@@ -3,7 +3,7 @@ body{
 }
 .con-main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     height:200px;
     gap: 20px;
 
@@ -11,10 +11,15 @@ body{
 
 .con1{
     background: blue;
+    display: grid;
+   grid-column: span 12 / 12;
+  
     
 }
 .con2{
     background: pink;
+    display: grid;
+    grid-column: span 1 / 6;
 }
 .con3{
     background: lightslategrey;
