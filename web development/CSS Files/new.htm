@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.cel {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.qat {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.qat:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .cel {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.boxes {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Column Cards</h2>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="qat">
+  <div class="cel">
+    <div class="boxes">
+	 <img src="1stcard.png" alt="Forest" style="width:50%">
+      <h3>Strategic conferences</h3>
+      <p>Interact with right people at right place.
+     	  Do business like never<br> before.</p>
+   
+    </div>
+  </div>
+
+  <div class="cel">
+    <div class="boxes">
+	<img src="busns2.png" alt="Forest" style="width:50%">
+      <h3>Business Summits</h3>
+      <p>Tailor made programs.
+	  Improve your knowledge, understanding and 
+	  network at same time.</p>
+      
+    </div>
+  </div>
+  
+  <div class="cel">
+    <div class="boxes">
+	<img src="3bscon.png" alt="Forest" style="width:50%">
+      <h3>Business Consultancy</h3>
+      <p>We consult C-Level Executives and guide 
+	  them in finding the most suitable solutions
+	  for their businesses</p>
+    </div>
+  </div>
+  
+  <div class="cel">
+    <div class="boxes">
+	<img src="4pmet.png" alt="Forest" style="width:50%">
+      <h3>Private Meetings</h3>
+      <p>We organize your meetings with your desired 
+	     audience.</p>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="qat">
+  <div class="cel">
+    <div class="boxes">
+	 <img src="5exbht.png" alt="Forest" style="width:50%">
+      <h3>Exhibitions</h3>
+      <p>Exhibit in our industry’s renowned platforms. 
+	      Make more professional connections.</p>
+    </div>
+  </div>
+
+  <div class="cel">
+    <div class="boxes">
+	<img src="6workshop.png" alt="Forest" style="width:50%">
+      <h3>Workshop</h3>
+      <p>Industry’s leading speakers 
+	     and influencer’s feed your brains with rich knowledge.</p>
+      
+    </div>
+  </div>
+  
+  <div class="cel">
+    <div class="boxes">
+	<img src="7BI.png" alt="Forest" style="width:50%">
+      <h3>Business Intelligence</h3>
+      <p>Providing you with refined business intelligence 
+	    of your<br> client.</p>
+    </div>
+  </div>
+  
+  <div class="cel">
+    <div class="boxes">
+	<img src="8rd.png" alt="Forest" style="width:50%">
+      <h3>Research & Development</h3>
+      <p>Our teams are always
+	  working to innovate and adopt.
+	  We also Help you research work.</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

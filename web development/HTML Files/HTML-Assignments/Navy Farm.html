@@ -1,0 +1,243 @@
+<html>
+<head>
+<title>Navy Registration Form</title>
+<style>
+table {
+  border:1px solid black;
+  width: 50%;
+   border-radius:10px;
+   padding-bottom:10px;
+   padding-left:10px;
+   padding-right:10px;
+   padding-top:10px;
+ 
+}
+  #heading{
+  text-align:center;
+  background-color:#0080ff;
+  padding-bottom:10px;
+  padding-top:10px;
+ color:white;
+ }
+  .col{
+padding:10px;
+background-color:blue;
+ }
+
+
+#sel
+{
+   position:relative;
+   width:100px;
+   transform:translate( 250%,-99%);
+     
+}
+.set
+{
+   position:relative;
+   width:120px;
+   transform:translate( 373% ,-103%);
+     
+}
+.em
+{
+   position:relative;
+   width:120px;
+   transform:translate( 373% ,-140%);
+     
+}
+#set
+{
+   position:relative;
+   width:120px;
+   transform:translate(373% ,-100%);
+     
+}
+.adj
+{
+   position:relative;
+   width:120px;
+   transform:translate( 373% ,-100%);
+     
+}
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  align:center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+ 
+
+</head>
+<body>
+<table  align="center" >
+<tr>
+<td>
+
+<h1 id="heading">Registration Form</h1>
+<h3 style="color:#0080ff"><b>Application</b></h3>
+<form action="/action_page.php" >
+  <label for="Advertisement"><b>Advertisement</b></label><br>
+  <select id="Advertisement" name="Advertisement" style="width: 800px; height:40px;">
+    <option value="Select Advertisement">
+	--Select Advertisement--
+	</option>
+    <option value="website">Website</option>
+    <option value="Social media">Social media<option>
+    <option value="newspaper">Newspaper</option>
+  </select><br><br>
+  <label for="Branch"><b>Branch:</b></label><br>
+  <select id="Branch" name="Branch" style="width: 800px; height:40px;">
+    <option value="Select Advertisement">
+	--Branch/Category/Induction--
+	</option>
+    <option value="Marine Engg">Marine Engg</option>
+    <option value="Supply">Supply<option>
+    <option value="Weapon Engg">Weapon Engg</option>
+  </select><br><br>
+<label for="PNR & SC"><b>PNR & SC:</b></label><br>
+  <select id="PNR & SC" name="PNR & SC" style="width: 220px; height:35px;">
+    <option value=" PNR & SC"> --Select PNR & SC--</option>
+    <option value="Islamabad">Islamabad</option>
+    <option value="Karachi">Karachi</option>
+    <option value="Lahore">Lahore</option>
+  </select>
+  <br>
+  
+  <div id="sel">
+  <label for="test date"><b>Test date:</b></label><br>
+  <select id="test date" name="test date" style="width: 220px; height:35px;">
+    <option type="date" value="test date"> --Select Test Test Date--</option>
+    <option value="date">07/09/2023</option>
+    <option value="test">07/15/2023</option>
+    <option value="adate">07/25/2023</option>
+  </select>
+  <br>
+ </div>
+  <div class="col" style="margin-top:-35px">
+</div><br>
+<label for="Shaheed"><b>Shaheed/Naval Ward:<b></label><br>
+  <select id="Shaheed" name="Shaheed"
+  style="width: 800px; height:40px;">
+    <option value="Select Advertisement">
+	--Ward--
+	</option>
+    <option value="Not Applicable">Not Applicable</option>
+    <option value="Naval Ward">Naval Ward<option>
+    <option value="PN Shaheed">PN Shaheed</option>
+  </select><br><br>
+ <label for="Candidate Name:"><b>Candidate Name:</b></label><br>
+  <input type="text" id="Candidate Name:" name="Candidate Name:"
+  placeholder="Candidate Name:"  style="width: 350px; height:34px;">
+
+  <div class="set">
+    <label for="Candidate CNIC:">
+	<b>Candidate CNIC:</b></label>
+  <input type="text" id="Candidate CNIC:" name="Candidate CNIC:" placeholder="Candidate CNIC"  
+  style="width: 350px; height:34px;">
+   </div> 
+     
+	 <div  style="margin-top:-50px">
+ <label for="Father Name"><b>Father Name:</b></label><br>
+  <input type="text" id="Father Name" name="Father Name" placeholder="Father/Gardian name"
+  style="width: 350px; height:34px;">
+</div>
+  <div class="set">
+    <label for="Father CNIC"  ><b>Father CNIC:</b></label><br>
+  <input type="text" id="Father CNIC" name="Father CNIC:" 
+  placeholder="Father/Guardian CNIC"
+  style="width: 350px; height:34px;">
+   </div> 
+   <br>
+   <div style="margin-top:-50px"> 
+<label for="gender"  ><b>Gender:</b></label><br>
+  <select id="gender" name="gender" style="width: 350px; height:30px;">
+    <option value=" gender"> --Gender--</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="Other">Other</option>
+  </select><br>
+  </div>
+  <br>
+  
+  <div>
+  <label for="Marital Status"><b>Marital Status:</b></label><br>
+  <select id="Marital Status" name="Marital Status:"
+  style="width: 350px; height:34px;">
+    <option type="date" value="Marital Status"> --Marital Status--</option>
+    <option value="married">Married</option>
+    <option value="unmarried">Unmarried</option>
+  </select>
+  <br><br>
+  <label for="birthday"><b>Date of Birth:</b></label><br>
+  <input type="date" id="birthday" name="birthday" 
+  style="width: 350px; height:34px;">
+  <br><br>
+  
+  
+ <div class="em">
+  <label for="email"><b> Email:</b></label>
+  <input type="email" id="email" name="email"
+  style="width: 350px; height:34px;">
+  </div>
+  
+ <div style="margin-top:-50px">
+  <label for="Postal Address" ><b>Postal Address:</b></label><br>
+<textarea rows="3" cols="45" name="comment" form="usrform">
+Enter text here...</textarea>
+<div id="set">
+<label for="Postal Address" >Permanent Address:</label><br>
+<textarea rows="3" cols="45" name="comment" form="usrform">
+Enter text here...</textarea>
+  </div>
+  <br>
+  <div  style="margin-top:-70px">
+  <label for="phone"><b>Mobile number:</b></label><br>
+  <input type="tel" id="phone" name="phone" 
+  placeholder="Candidate's mobile number:"  required 
+  style="width: 350px; height:34px"><br>
+  
+  <div class="adj" style="text-align:left">
+  
+    <label for="phone"><b>Father's Mobile number:</b></label><br>
+  <input type="tel" id="phone" name="phone" 
+  placeholder="Father's mobile number:"  required 
+  style="width: 350px; height:34px"><br>
+  </div>
+  </div>
+  <div style="margin-top:-60px">
+  <p><b>Please do not  provide ported mobile number 
+  (which is converted from one network to another)</b></p>
+ </div>
+  
+
+
+
+
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+</body>
+</html>

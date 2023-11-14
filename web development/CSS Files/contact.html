@@ -1,0 +1,474 @@
+<html>
+<head>
+  
+<style>
+.button {
+  background-color: white;
+  float:right;
+  color: blue;
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;            
+  display: inline-block;
+  font-size: 16px;
+ font-family: Arial, Times New Roman,  Helvetica;
+  cursor: pointer;
+  background-color: white;
+  
+}
+a:hover {
+  background-color: #E8E8E8;     
+}
+.image{
+position:relative;
+padding:5px 5px;
+float:left;
+  transform:translate( 35% , 14%);
+}
+
+
+#navbar {
+ background-color: white;
+ position:fixed;
+ opacity:0.8;
+  width: 100%;
+  float:right;
+    top:0;
+  border: none;
+  color: blue;
+padding-top:5px;
+  text-align: center;
+  text-decoration: none;            
+  display: block;
+  font-size: 16px;
+  margin: -3px 0px;
+  cursor: pointer;
+  background-color: white;
+   transform:translate( 0% , -10%);
+     height: 77px;
+	 z-index:1;
+}
+
+
+
+
+.bcolor{
+background-color: #e6e6ff;
+transform:translate( 0% , -7.5%);
+height:800px;
+}
+
+#office{
+width:100%;
+background-image:no-repeat;
+transform:translate( 0% , 23%);
+}
+#txt{
+ font-family: Arial, Helvetica, sans-serif;
+ transform:translate( 3% , -290%);
+ color:white;
+ font-size: 25px;
+}
+
+
+
+* { 
+margin: 0;
+padding: 0;
+box-sizing: border-box
+}
+
+.contact-box{
+display:flex; 
+width:75%;
+height:80%;
+  transform:translate( -7% , 15%);
+}
+.contact-left{
+ flex-basis:40%;
+ padding:40px ;
+ background-color: rgb(0, 51, 102);
+ color:white;
+  transform:translate( 30% , 13.5%);
+}
+ td {
+  padding: 15px;
+  color:white;
+}
+.gmap{
+ transform:translate( 12.5% ,15%);
+ height:250px;
+}
+
+
+
+
+
+
+
+
+.cont{
+width:60%;
+ transform:translate( 60% ,-140%);
+}
+.contact-box{
+height:400px;
+display:flex; 
+}
+.contact-right{
+ flex-basis:60%;
+ padding:40px 60px;
+}
+
+.input-row{
+
+  justify-content: space-between;
+  margin-bottom:20px; 
+}
+
+input{
+ width:100%;
+}
+
+button{
+background:rgb(0, 51, 102);
+width:100%;
+border:none;
+color:#fff;
+outline:none;
+border-radius:2px;
+height:35px;
+}
+.input-group{
+transform: translate(0%, 200%);
+width:50%;
+}
+.group{
+width:100%;
+transform: translate(0%, 200%);
+}
+.eml{
+transform: translate(46.5%, 100%);
+}
+button{
+
+transform: translate(0%, 380%);
+}
+.para{
+transform: translate(-1%, 750%);
+}
+.heading{
+color:rgb(0, 51, 102);
+font-size:30px;
+transform: translate(0%, 50%);
+}
+.log{
+border-bottom-style: solid ;
+ width:93%;
+  opacity: 0.2;
+  border-color:  black;
+transform:translate(-1%,2000%);}
+.whte{
+background-color:white;
+height:633px;
+transform: translate(0%, 50%);
+}
+.comm{
+transform: translate(0%, 50%);
+}
+.air{
+transform: translate(0%, -13%);
+}
+
+
+
+.main{
+display:flex;
+background-color: #343434;
+color:white;
+width:100%;
+height:130px;
+}
+.h{
+ transform:translate( 30% , 30%);
+}
+.move{
+transform:translate( -100% , 0%);
+}
+.mv{
+transform:translate( -50% , 0%);
+}
+.c {
+  float: left;
+  width: 5%;
+  padding: 5px;
+  transform:translate( 500% , -100%);
+}
+
+.t::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#w{
+display: inline-block;
+    white-space: nowrap;
+ transform:translate( 285% , -60%);
+}
+#query{
+
+ transform:translate( 43% , -225%);
+}
+.foo{
+border-bottom-style: solid;
+ width:20%;
+  border-color: white;
+transform:translate(360%,-3450%);}
+.phone{
+  float: left;
+  transform:translate( 1600% , -300%);
+}
+#num{
+ font-size:40px;
+ transform:translate( 33% , -40%);
+}
+
+.foot{
+   display:flex;
+background-color: #343434;
+color:white;
+float:left;
+text-align:center;
+width:114.5%;
+height:80px;
+transform:translate( -12.6% , 15%);
+}
+.copy{
+ transform:translate( 5% ,30%);
+display: inline-block;
+    white-space: nowrap;
+}
+.dev {
+  float: left;
+  width: 3%;
+  padding: 5px;
+  transform:translate( 2250% , 100%);
+}
+
+.pics::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.up{
+ transform:translate( 0% ,500%);
+}
+.magic{
+transform:translate( 37% ,2850%);
+color:white;
+}
+.if{
+transform:translate( 50% ,-250%);
+color:  rgb(0, 51, 102);
+font-size:50px;
+}
+.all{
+transform:translate( 0% ,10%);
+}
+
+</style>
+</head>
+<body style="overflow-x: hidden">
+<div id="navbar">
+  <div>
+<a href="contact.html" class="button"><b>Contact</b></a>
+  <a href="news.html" class="button"><b>News</b></a>
+<a href="services.html" class="button"><b>Services</b></a>
+<a href="event.html" class="button"><b>Events</b></a>
+<a href="website.htm" class="button"><b>Home</b></a>
+<img src="ltd.png" alt="company"
+ width="145px" height="60px" class="image">
+</div>
+</div>
+
+
+
+<div id="office">
+<img src="cntct-bcknd.PNG" alt="learn" width="100%" height="45%" >
+<div id="txt">
+<h1>Contact</h1>
+</div>
+</div>
+
+
+
+
+<div class="bcolor" >
+
+
+ <div class="contact-box">
+  <div class="contact-left">
+<h3>Contact Us</h3>
+<table class="info">
+    <tr>
+	<td><img src="logloc.png" width="40%"
+	height="100%"></td>
+   <td> 135 Wood Lane, Dagenham, Essex 
+	RM8 3NA, United Kingdom</td>
+   	</tr>
+    <tr>
+	<td><img src="phneicone.png"  width="40%"
+	height="2%"></td>
+    <td> +44 (0) 208 077 1100</td>
+    </tr>
+	<tr>
+	<td><img src="fex.jpeg"  width="40%"
+	height="2%"></td>
+    <td> +44 (0) 208 077 1100</td>
+    </tr>
+	 <tr>
+	<td><img src="emailicon.png"  width="40%"
+	height="2%"></td>
+    <td>info@continuumglobe.com</td>
+    </tr>
+	<tr>
+	<td><img src="linkicon.png"  width="40%"
+	height="2%"></td>
+    <td>continuumglobe.com</td>
+    </tr>
+	  </table>
+	  </div>
+	  </div><br><br>
+	  <img src="map.png"  width="30%"
+	height="50%" class="gmap">
+	
+	
+	
+	
+	<div class="cont">
+	<div class="whte">
+     <div class="contact-right"> 
+	 <h4 class="heading">Send us a message</h4>
+	 <div class="log">
+</div>
+	 <form>
+	 <div class="input-row">
+	 <div class="input-group">
+
+	  <input type="text" placeholder="Full Name" style="width: 280px; height:40px;"> 	  
+	 </div>
+	 	 <div class="eml">
+<input type="email" placeholder="Email" style="width: 280px; height:40px;" >
+ </div>
+	 <div class="group">
+	  <input type="text" placeholder="Subject"  style="width: 573px; height:40px;" >
+	 </div>
+	 
+	 
+	 </div>
+	 <textarea rows="12"  placeholder="Message" style="width: 573px;" class="comm"></textarea>
+	 <p class="para"><small>This site is protected by reCAPTCHA and 
+	 the Google <span style="color:red">Privacy Policy</span> and
+	 <span style="color:red"> Terms of Service</span> apply.</small></p>
+	 <button type="submit" style="width: 573px">
+	 Sent a message</button>
+	 </form>
+	 
+	 </div>
+	  
+</div>
+</div>
+</div>
+<div>
+<img src="air.jpeg"  width="100%"
+	height="100%" class="air">
+	<p class="if">If you have questions, call our <br>
+	representative<br>
++44 (0) 208 077 1100</p>
+	</div>
+
+<div class="main">
+<h4 class="h">Continuum Globe Ltd.</h4>
+<div  class="move"><br><br><br><br><br>
+<ul  style="list-style-type:none;">
+
+  <li><span style="color:orange;">→</span> &nbsp;&nbsp;Home</li><br>
+  <li><span style="color:orange;">→ </span>&nbsp;&nbsp;All Events</li><br>
+  <li><span style="color:orange;">→</span> &nbsp;&nbsp;Services</li><br>
+</ul>  </div>&nbsp;
+<div class="mv">
+<ul style="list-style-type:none;">
+<br><br><br><br><br>
+  <li><span style="color:orange;">→</span> &nbsp;&nbsp;News</li><br>
+  <li><span style="color:orange;">→ </span>&nbsp;&nbsp;Contact Us</li><br>
+  <li><span style="color:orange;">→ </span>&nbsp;&nbsp;Meridian Clinical</li><br>
+</ul>  </div>
+</div>
+
+<div class="main">
+
+ <h4 id="w">Find us in social media</h4>
+
+ <div class="t">
+  <div class="c">
+  <img src="twitter.png" alt="learn" width="100%" >
+  </div>
+  <div class="c">
+    <img src="linkdin.png" alt="build" width="100%">
+  </div>
+  <div class="c">
+ <img src="facebook.png" alt="build" width="100%">
+  </div>
+  <div class="c">
+ <img src="youtube.png" alt="build" width="100%">
+  </div>
+  <div class="c">
+ <img src="instagram.png" alt="build" width="100%">
+  </div>
+  <h4 id="query">Do you have questions?<br>
+  Contact us now</h4>
+  <div class="foo">
+</div>
+
+<div class="phone">
+ <img src="phonesign.PNG" alt="build" width="100%">
+  </div>
+<p id="num">+44(0) 208 077 1100</p>
+
+
+<br><br>
+<div class="foot">
+<p class="copy"> &copy; 2023 Develop 
+by Continuum Globe Ltd | All Rights Reserved |</p>
+
+<div class="pics">
+  <div class="dev">
+  <img src="twitter.png" alt="learn" width="100%" >
+  </div>
+  <div class="dev">
+    <img src="linkdin.png" alt="build" width="100%">
+  </div>
+  <div class="dev">
+ <img src="facebook.png" alt="build" width="100%">
+  </div>
+  <div class="dev">
+ <img src="youtube.png" alt="build" width="100%">
+  </div>
+  <div class="dev">
+ <img src="instagram.png" alt="build" width="100%">
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

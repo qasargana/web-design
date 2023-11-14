@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h2>Display an Element on Hover</h2>
+
+<div class="myDIV"> <img src="learn.JPG" alt="learn" width="100%" ></div>
+<div class="hide">What is your business about? What are your challenges? What are the issues that your members or clients are dealing with? By thoroughly understanding your company’s leadership culture, how your organization operates and your long term strategic plans, we become a part of your team. Our model works best when we can become more than the “hired help” and can become strategic event management partners, so the first step for us is about getting to know you and your business</div>
+
+</body>
+</html>

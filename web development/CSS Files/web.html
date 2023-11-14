@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+ 
+.navbar .navbar-nav .nav-link:hover{
+background-color:#E8E8E8;
+}
+.navbar{
+padding:0;
+background-color: white;
+opacity: 0.8;
+}
+.navbar .navbar-nav .nav-link{
+    padding: 1.5em;
+}
+.ig{
+    background-image: url("1stbckndimg.JPEG");
+    background-repeat: no-repeat;
+width:100%;
+height:560px;
+}
+.txt{
+ background-color:rgba(0, 0, 0, 0.4);
+ border:solid #696969;
+ border-radius: 120px;
+padding:5px 0px;
+font-size:25px;
+ font-family: Arial, Helvetica, sans-serif;
+  border-top: 0 solid #696969;
+  border-bottom: 0 solid #696969;
+  position: absolute;
+  border-right: 0;
+ display:inline-block;
+ color:white;
+}
+.centered {
+  transform: translate(0%, 400%);
+}
+.buton {
+  background-color: #ff6f3c; 
+  border: none;
+    padding: 10px;
+  color: white;
+  border-radius: 60px;
+   transform:translate( 0% , 590%);
+}
+.buton:hover{
+  background-color: #ff642c; 
+}
+.par{
+  font-size:40px;
+  color:blue;
+ 
+}
+.sc{
+border-bottom-style: dotted;
+ width:55%;
+  border-color:  blue;
+  margin: auto;
+}
+.wh{
+font-size:40px;
+  color:blue;
+}
+.line{
+border-bottom-style: dotted;
+ width:10%;
+  border-color:  blue;
+  margin: auto;
+}
+figcaption{
+    width: 300px;
+    color:white;
+    text-align:center;
+    background-color: gray;
+    padding-bottom:10px;
+  padding-top:10px;
+}
+.containe {
+  position: relative;
+}
+.cont{
+  position: relative;
+}
+.con{
+  position: relative;
+}
+section{
+float:left;
+}
+
+.image {
+  display: block;
+ width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0,0,255,0.4);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.containe:hover .overlay {
+  height: 100%;
+}
+.cont:hover .overlay {
+  height: 100%;
+}
+.con:hover .overlay {
+  height: 100%;
+}
+.text {
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.g{
+  background-image: url("2bcknd.JPG");
+    background-repeat: no-repeat;
+width:100%;
+}
+.log{
+border-bottom-style: dotted;
+ width:18%;
+  border-color:  white;
+  margin: auto;
+}
+.key{
+border-bottom-style: dotted;
+ width:18%;
+  border-color:  blue;
+  margin: auto;
+}
+.col {
+  padding: 15px;
+  margin:20px;
+  border:1px solid rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+  color :blue;
+  font-size:20px;
+}
+#imag {
+  border-radius: 50%;
+justify-content: center;
+  transform:translate(0%,0%);
+}
+#wor{
+  font-size:40px;
+  color:blue;
+  text-align:center;
+  transform:translate(0%,0%);
+}
+
+#quot{
+  font-size:18px;
+  color:blck;
+  text-align:left;
+  transform:translate(0%,0%);
+}
+.inve{
+border-bottom-style: solid;
+ width:72%;
+ opacity:0.5;
+  border-color:  black;
+transform:translate(0%,0%);}
+.future{
+  font-size:18px;
+  color:blck;
+  text-align:left;
+  transform:translate(340%,0%);
+}
+.sm{
+border-bottom-style: solid;
+ width:4%;
+  opacity:0.5;
+  border-color:  black;
+transform:translate(340%,0%);
+}
+#mid{
+font-size:25px;
+  color:blue;
+  text-align:center;
+transform:translate(0%,0%);
+}
+.job{
+font-size:15px;
+  color:black;
+  opacity:0.5;
+  text-align:center;
+transform:translate(0%,0%);
+}
+section{
+        float:left;
+        }
+.sec{
+  padding:15px;
+}
+.cel {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.qat {margin: 0 0px;
+}
+
+.qat:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .cel {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+          .boxes {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+  .boxes:hover {
+        
+         outline: 5px solid white;
+         background-color: white;
+      }
+#work{
+border-bottom-style: dotted;
+ width:10%;
+margin: auto;
+  border-color:  blue;
+}
+.lear{
+    font-size:40px;
+ white-space: nowrap;
+ color:blue;
+ 
+ transform:translate(0%,0%);
+}
+.c {
+  float: left;
+  width: 5%;
+  padding: 5px;
+  transform:translate( 0% , -50%);
+}
+
+.t::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.w{
+display: inline-block;
+    white-space: nowrap;
+ transform:translate( 0% , -130%);
+}
+.syrn{
+    transform:translate( 160% , -50%); 
+}
+.foo{
+border-bottom-style: solid;
+ width:80%;
+  border-color: white;
+transform:translate(20%,0%);
+}
+.phone{
+    transform:translate(73%,-130%);
+}
+.num{
+    transform:translate(0%,-90%);
+}
+.rever{
+    border-top-style: solid;
+ width:100%;
+  border-color: white;
+  transform:translate(0%,-50%);
+}
+.bord{
+    padding-top: 20px;
+    transform:translate(-40%,0%);
+    
+}
+ </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm  navbar-expand-lg 
+ navbar-light .bg-white fixed-top navbar-default ">
+
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="ltd.png" 
+          height="62" width="150" alt="company"></a>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar  ">
+      <ul class="navbar-nav ms-auto   ">
+        <li class="nav-item">
+         <a class="nav-link fw-bold text-primary" href="website.htm">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-primary " href="event.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-primary " href="services.html" class="button">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary fw-bold "  href="news.html" class="button">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-primary" href="contact.html" class="button">Contact</a>
+        </li>
+          </ul>
+   
+    </div>
+  </div>
+</nav><br><br><br>
+<header class="ig  bg-image" >
+<div class="container-fluid">
+  <div class="d-flex justify-content-center ">
+    <p class="txt centered ">
+      <b>Achieving Excellence through Innovation</b>
+    </p></div>
+        <div class="text-center">
+                  <button type="button" class=" buton px-4">Register Now</button></div>
+                </div>
+</header>
+<div class="container">
+  <div class="d-flex justify-content-center ">
+  <p  class="par fw-bolder mt-5">Welcome to Continuum Globe</p></div>
+  <p class="sc "> </p><br><br>
+  <p class="justify-content">Continuum Globe Ltd is specialized in delivering its clients, exclusive meetings, and potential
+     meetups under one roof. We have built strong relationships with Delegates & Vendors around the Globe.
+      Our affiliation and master teamwork will assist you contemporarily, with matchless levels of services,
+       from concept to execution in the industry. Your needs are preeminent for us. We will preferably consider
+        your budget to ensure and endeavor a meeting to make it to your expectations.</p>
+</div>
+<div class="container">
+  <div class="d-flex justify-content-center ">
+    <p  class="wh fw-bolder mt-5">What We Do</p></div>
+    <p class="line"></p>
+</div><br><br>
+<div class="container-fluid" style="padding-left: 50px;">
+  <h3 style="color:blue;
+  text-align:center;">Our Approach</h3><br>
+  <section style="padding: 10px;">
+<div class="containe">
+   <img src="learn.JPG" alt="learn" width="100%" height="auto" style="display: block;">
+  <div class="overlay">
+    <div class="text">
+	What is your business about? What are your challenges? What are the issues that
+ your members or clients are dealing with? By thoroughly understanding your company’s leadership culture, 
+ how your organization operates and your long term strategic plans, we become a part of your team. Our model 
+ works best when we can become more than the “hired help” and can become strategic event management partners
+ , so the first step for us is about getting to know you and your business</div>
+  </div>
+</div>
+ <figcaption style="width: 380px;">
+ LEARN: WE WANT TO GET TO KNOW YOU
+ </figcaption>
+ </section>
+ <section style="padding: 10px;">
+<div class="cont">
+ <img src="build.JPG"  alt="build"  width="100%" height="auto" style="display: block;">
+  <div class="overlay">
+    <div class="text">
+	Because we have taken the time to learn 
+	about your business priorities and the goals of your
+	future business, you can rest assured that the 
+	event will be on target and in line with your 
+	objectives. Let our business intelligence pave 
+	your way to ultimate success. From our network 
+	of preferred vendors, Let our business intelligence pave 
+	your way to ultimate success. From our network 
+	of preferred vendors
+	</div>
+  </div>
+</div>
+ <figcaption style="width: 380px;">
+ BUILD: LET US DO THE HEAVY LIFTING 
+ </figcaption>
+ </section>
+ <section style="padding:10px;">
+<div class="con">
+ <img src="deliver.JPG"  alt="build"  width="100%" height="auto" style="display: block;"  >
+  <div class="overlay">
+    <div class="text">
+	Finally, this is where our 
+	expertise comes into play. We have confidence
+	in our extensive market research. Knowing that
+	every last detail is looked after will allow you
+	to focus on your meeting and stakeholders at the
+ event. Let us look after the rest.
+ </div>
+  </div>
+</div>
+ <figcaption style="width: 100%;" > 
+ DELIVER: SIT BACK. RELAX 
+ </figcaption>
+ </section>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="container-fluid" style="  background-image: url('2bcknd.JPG');
+ height: 130vh; background-repeat: no-repeat ; background-size: cover;"><br><br>
+ <h1 style="text-align: center; color: white;">Our Upcoming Events</h1>
+ <p class="log"></p><br>
+ <div class="container">
+ <table class="table table-striped table-align-middle" style="height: 520px;">
+  <tbody style="padding: 10px;">
+    <tr>
+      <td ><a href="https://meridianclinicaltrials.com/"> <img src="9thh.png" alt="" 
+height="60%" width="40%"></td>
+      <td>16<sup>th</sup> & 17<sup>th</sup> Nov 2023<br>
+Philadelphia,USA</td>
+      <td><a href="https://meridianclinicaltrials.com/" style="color:red;">DETAILS</a></td>
+    </tr>
+    <tr>
+      <td> <a href="https://meridiandrugdiscovery.com/"><img src="7th.png" alt="" 
+height="60%" width="40%"></a></td>
+      <td>16<sup>th</sup> & 17<sup>th</sup> Nov 2023<br>
+Philadelphia,USA</td>
+      <td><a href="https://meridiandrugdiscovery.com/" style="color:red;">DETAILS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://continuumglobe.com/#"><img src="aero.png" alt="" 
+        height="60%" width="40%"></a></td>
+      <td>16<sup>th</sup> & 17<sup>th</sup> Nov 2023<br>
+Philadelphia,USA</td>
+      <td> <a href="https://continuumglobe.com/#" style="color:red;">DETAILS</a></td>
+    </tr>
+     <tr>
+      <td><a href="https://continuumglobe.com/#"><img src="mrgrn.png" alt="" 
+        height="60%" width="40%"></a></td>
+      <td>16<sup>th</sup> & 17<sup>th</sup> Nov 2023<br>
+Philadelphia,USA</td>
+      <td><a href="https://continuumglobe.com/#" style="color:red;">
+DETAILS</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div><br>
+
+<div class="container-fluid" >
+  <h1 style="color:blue; text-align:center">Our Core Values</h1>
+<p class="key"></p><br><br>
+  <section class="col" style="padding: 10px;">
+    <img src="integrity.JPEG" alt="learn" width="100%" >
+  <div class="desc"><b>Integrity</b></div>
+ </section>
+ <section class="col" style="padding: 10px;">
+  <img src="trust.JPEG" alt="build" width="100%">
+	<div class="desc"><b>Trust</b></div>
+ </section>
+ <section class="col" style="padding: 10px;">
+  <img src="commitment.JPEG" alt="build" width="100%">
+ <div class="desc"><b>Commitment</b></div>
+ </section>
+</div>
+<div class="container">
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <div>
+            <br><br>
+              <p id="wor">Client's Feedback</p>
+      
+              <img src="client.jpg" alt="feedback" width="100" height="100"  class="mx-auto d-block"
+              id="imag"><br>
+              
+      <p id="quot "  class="inve text-center inline-block mx-auto" ><br>&#x201D; This is a great opportunity to hear about clinical
+      trials design and meeting CROs that they potentially help 
+      us in </p>
+      <p class=" sm future" >future</p>
+      </div>
+      <p id="mid">Peter Guzzo</p>
+      <p class="job">Consynanace Therapeutics</p>
+  
+      </div>
+      <div class="carousel-item">  
+          <br><br>
+          <div>
+              <p id="wor">Client's Feedback</p>
+      
+              <img src="client.jpg" alt="feedback" width="100" height="100"  class="mx-auto d-block"
+              id="imag"><br>
+              
+      <p id="quot "  class="inve text-center inline-block mx-auto" ><br>&#x201D; This is a great opportunity to hear about clinical
+      trials design and meeting CROs that they potentially help 
+      us in </p>
+      <p class=" sm future" >future</p>
+      </div>
+      <p id="mid">Peter Guzzo</p>
+      <p class="job">Consynanace Therapeutics</p>
+  
+      </div>
+      <div class="carousel-item">
+        <br><br>
+        <div>
+          <p id="wor">Client's Feedback</p>
+  
+          <img src="client.jpg" alt="feedback" width="100" height="100"  class="mx-auto d-block"
+          id="imag"><br>
+          
+  <p id="quot "  class="inve text-center inline-block mx-auto" ><br>&#x201D; This is a great opportunity to hear about clinical
+  trials design and meeting CROs that they potentially help 
+  us in </p>
+  <p class=" sm future" >future</p>
+  </div>
+  <p id="mid">Peter Guzzo</p>
+  <p class="job">Consynanace Therapeutics</p>
+  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  </div>
+  <div class="container-flud mt-5" style="padding-left: 50px;">
+    <section style="padding:10px;" >
+        <iframe width="270" height="180" src="https://www.youtube.com/embed/XHxY8c5jqH0"
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    
+    <section style="padding:10px;" >
+        <iframe width="270" height="180" src="https://www.youtube.com/embed/G0dCIaZ2ZxM"
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+     gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    </section >
+    <section  style="padding:10px;">
+        <iframe width="270" height="180" src="https://www.youtube.com/embed/Cdpyu9yZMi8"
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section style="padding:10px;" >
+        <iframe width="270" height="180" src="https://www.youtube.com/embed/c98SUMOG40U" title="YouTube video player"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+     web-share" allowfullscreen></iframe>
+    </section>
+        </div>
+        
+    </div>
+</body>
+</html>

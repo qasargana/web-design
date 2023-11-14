@@ -1,0 +1,15 @@
+p.x1{
+border:1px solid black;
+outline-style:solid;
+outline-color:red;
+p.x2{
+boder: 2px solid black;
+outline-style:dotted;
+outline-color;yellow;
+}
+p.ex3{
+border: 1px solid black;
+outline-style:dotted;
+outline-color: green;
+}
+

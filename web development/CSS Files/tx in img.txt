@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.floating {
+width:30%;
+  border: 1px solid black;
+  padding: 5px;
+
+}
+.img2 {
+  float: center;
+}
+
+.clearfix {
+  overflow: auto;
+}
+</style>
+</head>
+<body>
+
+
+<div class="clearfix floating">
+  <img class="img2" src="pineapple.jpg" alt="Pineapple" width="170" height="170">
+<p style="float:bottom ">  Lorem ipsum </p>
+</div>
+
+</body>
+</html>
+
+
+transform:translate(30%,-150%);
+<div  class="pic">
+ <img src="longpic.PNG" alt="learn" 
+ width="25%" height="150%">
+ </div>
+
