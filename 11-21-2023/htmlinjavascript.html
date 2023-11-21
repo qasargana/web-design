@@ -6,7 +6,9 @@
     <title>My todo App</title>
 </head>
 <body>
-    <button onclick="todo.push('new todo');">Press me</button>
+    <!-- <button onclick="addTodo()">Press me</button> -->
+    <input type="text" id="todo-title">
+    <button onclick="addTodo();">Press me</button>
     <!-- <div>get groceries</div>
     <div>Wash car</div>
     <div>Make dinner</div> -->
@@ -16,7 +18,7 @@
     // let todo3='make dinner';
 
     let todo=['Get groceries','Wash Car','make dinner'];
-    todo.push('zaid');
+    // todo.push('zaid');
     // for(var i=0; i<todo.length;i++){
     //     addTodo(todo[i]);
     // }
@@ -45,6 +47,18 @@
     element.innerText=todoTitle;
     document.body.appendChild(element);
 });
+function addTodo(){
+    let textbox=document.getElementById('todo-title');
+    let title=textbox.value;
+    todo.push(title);
+    element.innerText=title;
+    element.innerText=todo;
+    console.log(todo);
+    
+    let element= document.createElement('div');
+    element.innerText=title;
+    document.body.appendChild(element);
+}
 // addTodo(todo1);
 // addTodo(todo2);
 // addTodo(todo3);
