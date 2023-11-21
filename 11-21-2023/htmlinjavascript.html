@@ -6,26 +6,49 @@
     <title>My todo App</title>
 </head>
 <body>
-    <button>Press me</button>
+    <button onclick="todo.push('new todo');">Press me</button>
     <!-- <div>get groceries</div>
     <div>Wash car</div>
     <div>Make dinner</div> -->
 <script>
-    let todo1='Get groceries';
-    let todo2='Wash Car';
-    let todo3='make dinner';
-    let element= document.createElement('div');
-    element.innerText=todo1;
-    document.body.appendChild(element);
+    // let todo1='Get groceries';
+    // let todo2='Wash Car';
+    // let todo3='make dinner';
 
-     element= document.createElement('div');
-    element.innerText=todo2;
-    document.body.appendChild(element);
+    let todo=['Get groceries','Wash Car','make dinner'];
+    todo.push('zaid');
+    // for(var i=0; i<todo.length;i++){
+    //     addTodo(todo[i]);
+    // }
 
-     element= document.createElement('div');
-    element.innerText=todo3;
-    document.body.appendChild(element);
+    // let element= document.createElement('div');
+    // element.innerText=todo1;
+    // document.body.appendChild(element);
+
+    //  element= document.createElement('div');
+    // element.innerText=todo2;
+    // document.body.appendChild(element);
+
+    //  element= document.createElement('div');
+    // element.innerText=todo3;
+    // document.body.appendChild(element);
 // console.log(todo1, todo2, todo3);
+//make a function instead this
+// function addTodo(todoTitle){
+//     let element= document.createElement('div');
+//     element.innerText=todoTitle;
+//     document.body.appendChild(element);
+// }
+//for array_name.foreach instead  loop make function input annonymous function
+ todo.forEach(function  (todoTitle){
+    let element= document.createElement('div');
+    element.innerText=todoTitle;
+    document.body.appendChild(element);
+});
+// addTodo(todo1);
+// addTodo(todo2);
+// addTodo(todo3);
+
 </script>
 
 </body>
