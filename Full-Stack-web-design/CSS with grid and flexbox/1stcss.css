@@ -1,0 +1,55 @@
+body{
+    background-color: purple;
+}
+#latest{
+    color: yellow;
+}
+p{
+    color: yellow;
+}
+h1{
+    color: aqua;
+}
+.old{
+    color:rgb(76, 241, 35)
+}
+.bord{
+    border: 5px solid black;
+   /* padding: 10px;
+   padding-left: 50px; */
+   margin: 10px;
+   border-radius: 20%;
+border-style: double;
+}
+.flex-direction{
+    display: flex;
+    gap: 20px;
+    /* flex-direction: row-reverse;
+    flex-direction: column; */
+   flex-wrap: nowrap;
+   justify-content: center;
+   /* flex-wrap: wrap-reverse; */
+   /* flex-flow: column; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin:2px;
+    padding: 10px;
+    /* flex-grow */
+    flex:1 1 auto;
+    /* display: flex; */
+    /* flex-shrink: ; */
+    /* justify-content: center; */
+}
+.box3{
+background-color: blanchedalmond;
+align-self: center;
+flex: 0 1 100px;
+
+}
+.box4{
+    flex:3 1 auto;
+}

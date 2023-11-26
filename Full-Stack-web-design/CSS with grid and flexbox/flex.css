@@ -1,0 +1,35 @@
+.flex-container{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap:20px;
+}
+.con1{
+    flex:1 1 25%;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 10px;
+
+}
+.con2{
+    display: flex;
+    gap: 20px;
+    flex:1 1 75%;
+    /* background-color: yellow; */
+}
+.con2-1{
+    background-color: palevioletred;
+    flex: 1 1 25%;
+}
+.con2-2{
+    background-color: blue;
+    flex: 1 1 75%;
+}
+.con3{
+    flex:1 1 25%;
+    background-color:yellow;
+    /* border: 5px solid black; */
+    /* border-radius: 10px; */
+
+}
