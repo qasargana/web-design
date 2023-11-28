@@ -11,11 +11,18 @@
     <button onclick="addtodo();">Add todo</button>
     <div id="todo-list"></div>
     <script>
-    const todos=[{
+     
+        const savedTodos = JSON.parse(localStorage.getItem('todos'));
+        if (Array.isArray(savedTodos)){
+            todos=savedTodos;
+        }
+            else {
+
+                var todos=[{
         title: "Get groceries",
         dueDate: "2021-10-04",
         id: 'id1'
-    }, 
+    },
     {
         title: "Wash car",
         dueDate: "2021-02-03",
@@ -27,6 +34,9 @@
         id: 'id3'
     }
     ];
+            }
+        
+ 
     render();
     function addtodo()
         {
@@ -35,7 +45,8 @@
             const datePicker = document.getElementById('date-picker');
             const dueDate = datePicker.value;
             //specific delete id assign
-            const id= new Date().getTime();
+            //delete latest value
+            const id= '' + new Date().getTime();
             
             todos.push({
                 title:title,
@@ -45,10 +56,28 @@
             // element.innerText=title;
             // element.innerText=todos;
             // todos.push(title);
+            saveTodos();
             render();
         }
-        function deleteTodo(){
-            console.log('delete!');
+        function saveTodos(){
+           localStorage.setItem('todos',JSON.stringify(todos));
+        }
+        function deleteTodo(event){
+            // console.log('delete!');
+            const deleteButton = event.target;
+            const idToDelete = deleteButton.id;
+            // const id = '' + new Date().getTime();
+            console.log(idToDelete);
+            todos = todos.filter(function (todo) {
+            if(todo.id === idToDelete){
+                return false;
+            }
+            else{
+                return true;
+            }
+        } );
+        render();
+        saveTodos();
         }
         function render(){
 
@@ -70,7 +99,9 @@
                 deleteButton.innerText='Delete';
                 deleteButton.style = 'margin-left: 20px;color:red; background-color:yellow;';
                 deleteButton.onclick = deleteTodo;
+                deleteButton.id = todo.id;
                 element.appendChild(deleteButton);
+                console.log(todo);
             });
         }
         // );
