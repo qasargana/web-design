@@ -13,17 +13,19 @@
     <script>
     const todos=[{
         title: "Get groceries",
-        dueDate: "2021-10-04"
+        dueDate: "2021-10-04",
+        id: 'id1'
     }, 
     {
         title: "Wash car",
-        dueDate: "2021-02-03"
+        dueDate: "2021-02-03",
+        id: 'id2'
     },
     {
         title: "Make dinner",
-        dueDate: "2021-03--04"
+        dueDate: "2021-03--04",
+        id: 'id3'
     }
-    
     ];
     render();
     function addtodo()
@@ -32,14 +34,21 @@
             let title=textbox.value;
             const datePicker = document.getElementById('date-picker');
             const dueDate = datePicker.value;
+            //specific delete id assign
+            const id= new Date().getTime();
+            
             todos.push({
                 title:title,
                 dueDate:dueDate,
+                id: id
             })
             // element.innerText=title;
             // element.innerText=todos;
             // todos.push(title);
             render();
+        }
+        function deleteTodo(){
+            console.log('delete!');
         }
         function render(){
 
@@ -52,6 +61,7 @@
             todos.forEach(function (todo){
                 let element =document.createElement('div');
                 element.innerText = todo.title + ' ' + todo.dueDate;
+                element.style= 'margin-top: 10px;margin-left:20px;'
                 // element.innerText=todoTitle;
                 const todoList=document.getElementById('todo-list');
                 todoList.appendChild(element);
@@ -59,6 +69,7 @@
                 const deleteButton=document.createElement('button');
                 deleteButton.innerText='Delete';
                 deleteButton.style = 'margin-left: 20px;color:red; background-color:yellow;';
+                deleteButton.onclick = deleteTodo;
                 element.appendChild(deleteButton);
             });
         }
