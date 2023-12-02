@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+#todo-list{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   text-align: center;
+ 
+}
