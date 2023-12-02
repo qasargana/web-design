@@ -1,0 +1,27 @@
+body{
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 1fr 300px;
+    grid-gap: 10px;
+    font-size: 2em;
+    color: white;
+    
+}
+header{
+    background: green;
+  text-align: center;
+  padding: 2em;
+
+}
+main{
+background-color: rgb(15, 0, 128);
+text-align: center;
+padding: 2em;
+
+}
+footer{
+    background: rgb(185, 47, 47);
+    text-align: center;
+padding: 2em;
+}
