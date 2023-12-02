@@ -1,4 +1,29 @@
+body{
+    /* background-color: rgb(19, 128, 0); */
+}
 li:nth-of-type(2){
     color: aqua;
     background-color: blueviolet;
+}
+.cont{
+    background-color: green;
+}
+.cont:hover > p{
+    background-color: yellow;
+}
+
+.cont:active{
+    background-color: white;
+}
+.cont:nth-child(2){
+    color: red;
+}
+.cont p:nth-of-type(2){
+    color: yellow;
+}
+#blog >h1{
+    color:blue;
+}
+h1~p{
+    color:blue;
 }
