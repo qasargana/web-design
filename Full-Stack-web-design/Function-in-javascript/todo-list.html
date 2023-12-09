@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button style="background-color: rgb(255, 0, 89);color:white;padding: 10px; border-radius: 20px;">
+        Press Me
+    </button>
+    <script>
+        // let todo1 ='Get groccries';
+        // let todo2 ='wash car'; 
+        // let todo3 ='make dinner';
+        let todos=['Get groccries',
+        'wash car',
+        'makedinner',
+        'do laundry'
+        ];
+        todos.push('another todos');
+        todos.forEach(function(todos){       
+             let element=document.createElement('div');
+        element.innerText=todos;
+        document.body.appendChild(element);
+    }) ;
+
+
+        //  element=document.createElement('div');
+        // element.innerText=todo2;
+        // document.body.appendChild(element);
+
+        // element=document.createElement('div');
+        // element.innerText=todo3;
+        // document.body.appendChild(element);
+       
+        // for (var i=0;i<todos.length;i++){
+        //     addTodo([todos[i]]);
+        // }
+
+    </script>
+</body>
+</html>
